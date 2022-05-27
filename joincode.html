@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN NOW</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+</head>
+<style>
+   
+
+    .container {
+        max-width: 900px;
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    #contact {
+
+    padding: 20px;
+    margin: 50px 0;
+    }
+
+  
+    #contact h2 {
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        color: blue;
+    }
+
+    #contact h3 {
+        margin: 5px 0px 15px;
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        width: 100% !important;
+        padding-right: 90px 0px;
+    }
+
+    fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    #contact button {
+        outline: none;
+        border: none;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        font-size: 17px;
+        width: 150px;
+        border-radius: 46px;
+    }
+
+   
+
+    #contact button:hover {
+        background-color: rgba(0, 0, 255, 0.8);
+    }
+
+    #contact input:focus {
+        outline: 0;
+        border: 1px solid red;
+    }
+.client {
+    margin-left: 120px;
+    
+
+}
+   
+
+    /* mobile responsive mode */
+    @media screen and (max-width: 580px) {
+        .row {
+            flex-direction: column;
+        }
+
+        .row .column {
+            width: 90% !important;
+        }
+
+        #contact .row #phone {
+            padding-right: 180px;
+        }
+    }
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <form id="contact" action="" method="post">
+                <h1>Create Meeting Room</h1>
+
+                <div class="row">
+                    <div class="col-md-4">
+                            <h2>Ready to Join?</h2>
+                                    <button type="submit" id="button">Join Now</button>
+                                    <button type="submit" id="button">Present Now</button> 
+                                    <h3>join and use a phone for audio</h3>   
+                        </div>
+                  
+                    
+                        
+                        <div class="col-md-8 client">
+                            <div>
+                                <img src="v.png" style="width:400px;height:300px;">
+                                </div>
+
+
+                           
+                        </div>
+                               
+                            
+                         
+                    
+
+                    <!-- second column -->
+
+                </div>
+                <!-- submit button -->
+               
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- Javascript to initialize the code list -->
+
+</body>
+
+</html>
